@@ -11,10 +11,16 @@
   role: Internship
   period: June 2023 - September 2023
   logo: T
-  tasks: []
+  tasks:
+    - Build Personal Portofolio using Nextjs, Tailwindcss.
+    - Assigned to Woodlands Transport (WTS) team to build WTS 2.0 website responsive for both mobile and desktop with NextJS and Tailwind CSS.
+    - Collaborated with the team to develop a new feature for the WTS 2.0 website.
+    - Managed All repository works with Bitbucket.
 
 - company: Recovdot
   role: Web Developer
   period: September 2024 - Present
   logo: R
-  tasks: []
+  tasks:
+    - Build Recovdot Portofolio using Nextjs, Tailwindcss.
+    - Managed All repository works with Bitbucket.

@@ -1,14 +1,29 @@
 - title: AWS Cloud Practitioner Essentials
   provider: Dicoding
+  description: Fundamentals of AWS Cloud services, architecture, and best practices.
+  thumb: /certificates/aws.png
+  pdf: /certificates/aws.pdf
 
 - title: Getting Started with Programming Basics
   provider: Dicoding
+  description: An introduction to programming concepts, languages, and problem-solving techniques.
+  thumb: /certificates/dasar.png
+  pdf: /certificates/dasar.pdf
 
 - title: Backend JavaScript Fundamentals
   provider: Dicoding
+  description: Understanding Node.js, Express, and building RESTful APIs.
+  thumb: /certificates/backendjs.png
+  pdf: /certificates/backendjs.pdf
 
 - title: "Google Coursera: IT Support Professional"
   provider: Google
+  description: Comprehensive IT support skills including troubleshooting, system administration, and customer service.
+  thumb: /certificates/itsupport.png
+  pdf: /certificates/itsupport.pdf
 
 - title: BNSP Junior Developer
   provider: BNSP
+  description: National certification for junior developer competency.
+  thumb: /certificates/bnsp.png
+  pdf: /certificates/bnsp.pdf

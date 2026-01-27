@@ -1,19 +1,31 @@
-- title: Sound of Harmony
-  category: Playlist Dashboard
-  date: August 2023
-  description: The magic of music like never before. Dive into a world where rhythm guides your journey.
+- title: Devtunes
+  category: Music Streaming Platform
+  date: "2024"
+  description: DevTunes is a music site inspired by Spotify. Users can play songs and browse public playlists without logging in. Using Laravel and Tailwind CSS as framework.
+  github: https://github.com/Tristanputra2119/Devtunes
+  live: https://devtunes.tristanputra.my.id
+  image: /image/devtunes.png
 
-- title: Marketplace Digital PrimaStore
+- title: Primastore
   category: E-Commerce Platform
-  date: January 2024
-  description: A modern digital marketplace platform to add products, process payments, and view sales reports. Using Nextjs, Tailwind CSS, and Prisma.
+  date: "2024"
+  description: PrimaStore is an e-commerce site for buying and selling products. It features a user-friendly interface, product management, and secure payment options.
+  github: https://github.com/adisaputra0/PrimaStore
+  live: https://primastore.tristanputra.my.id
+  image: /image/primastore.jpg
 
-- title: Jinus ISP
-  category: Internet Service Provider Website
-  date: February 2023
-  description: Company website for Jinus, an internet service provider. Built with Laravel and Bootstrap during internship.
+- title: Primakara Career Centre
+  category: Job Platform
+  date: "2024"
+  description: Primakara Career Center is a platform for students to find job opportunities and internships. It connects students with companies looking for talent.
+  github: https://github.com/Tristanputra2119/loker-kerja
+  live: "-"
+  image: /image/pcc.png
 
-- title: Recovdot Portfolio
-  category: Company Website
-  date: September 2024
-  description: Modern company website showcasing services and portfolio for Recovdot tech company.
+- title: Cashier App (Coffee POS)
+  category: Point of Sale System
+  date: "2024"
+  description: A simple cashier application for managing coffee shop transactions. It allows users to add products, process payments, and view sales reports. Using Nextjs, Tailwind CSS, and Prisma.
+  github: ""
+  live: https://kasirkopi.tristanputra.my.id
+  image: /image/kasirkopi.jpeg
