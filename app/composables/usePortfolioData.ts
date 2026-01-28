@@ -23,11 +23,14 @@ export const usePortfolioData = () => {
             const { data } = await useAsyncData('experiences', () =>
                 queryCollection('content').path('/experiences').first()
             )
-            const items = data.value?.body || []
+            // YAML arrays are stored directly, not in body
+            const content = data.value as any
+            const items = Array.isArray(content) ? content : (content?.body || [])
             return items.map((exp: any, index: number) => ({
                 ...exp,
                 id: index + 1,
-                isOpen: false
+                isOpen: false,
+                tasks: exp.tasks || []
             }))
         } catch (error) {
             console.error('Error fetching experiences:', error)
@@ -41,7 +44,8 @@ export const usePortfolioData = () => {
             const { data } = await useAsyncData('projects', () =>
                 queryCollection('content').path('/projects').first()
             )
-            return data.value?.body || []
+            const content = data.value as any
+            return Array.isArray(content) ? content : (content?.body || [])
         } catch (error) {
             console.error('Error fetching projects:', error)
             return []
@@ -67,7 +71,8 @@ export const usePortfolioData = () => {
             const { data } = await useAsyncData('certificates', () =>
                 queryCollection('content').path('/certificates').first()
             )
-            return data.value?.body || []
+            const content = data.value as any
+            return Array.isArray(content) ? content : (content?.body || [])
         } catch (error) {
             console.error('Error fetching certificates:', error)
             return []
@@ -80,7 +85,8 @@ export const usePortfolioData = () => {
             const { data } = await useAsyncData('testimonials', () =>
                 queryCollection('content').path('/testimonials').first()
             )
-            return data.value?.body || []
+            const content = data.value as any
+            return Array.isArray(content) ? content : (content?.body || [])
         } catch (error) {
             console.error('Error fetching testimonials:', error)
             return []
@@ -93,7 +99,8 @@ export const usePortfolioData = () => {
             const { data } = await useAsyncData('stats', () =>
                 queryCollection('content').path('/stats').first()
             )
-            return data.value?.body || []
+            const content = data.value as any
+            return Array.isArray(content) ? content : (content?.body || [])
         } catch (error) {
             console.error('Error fetching stats:', error)
             return []
